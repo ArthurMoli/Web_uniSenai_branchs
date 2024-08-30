@@ -1,23 +1,53 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AG Motos</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motos Fictícias - Início</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <nav>
-        <div className='logo'>AG Motos</div>
-        <ul className='navbar'> 
-            <li><a href="#" classname='navHome'>Home</a></li>
-            <li><a href="#" className='navSobre'>Sobre</a></li>
-            <li><a href="#" className='navTreinar'>Treinar</a></li>
-        </ul>
-        </nav>
-  </body>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Motos Fictícias</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="moto-list">
+                <article class="moto-item">
+                    <a href="buy.html">
+                        <img src="moto1.jpg" alt="Moto Modelo 1">
+                        <h2>Moto Modelo 1</h2>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p><strong>Preço:</strong> R$ 12.000,00</p>
+                    </a>
+                </article>
+                <article class="moto-item">
+                    <a href="buy.html">
+                        <img src="moto2.jpg" alt="Moto Modelo 2">
+                        <h2>Moto Modelo 2</h2>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p><strong>Preço:</strong> R$ 15.000,00</p>
+                    </a>
+                </article>
+                <!-- Adicione mais artigos aqui -->
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Motos Fictícias. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
 </html>
