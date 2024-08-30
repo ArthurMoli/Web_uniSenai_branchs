@@ -16,6 +16,11 @@ header {
     padding: 1rem 0;
 }
 
+#teste {
+    text-decoration: none;
+    color: #fff;
+}
+
 header .container {
     display: flex;
     justify-content: space-between;
@@ -44,6 +49,8 @@ header nav ul li a {
 header nav ul li a:hover {
     text-decoration: underline;
 }
+
+
 
 main {
     padding: 2rem 0;
