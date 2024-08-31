@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -50,12 +49,6 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-
-
-main {
-    padding: 2rem 0;
-}
-
 .moto-list {
     display: flex;
     flex-wrap: wrap;
@@ -85,45 +78,6 @@ main {
     height: auto;
     border-radius: 5px;
 }
-
-.login {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background: #f4f4f4;
-}
-
-.login form {
-    display: flex;
-    flex-direction: column;
-}
-
-.login label {
-    margin: 0.5rem 0;
-}
-
-.login input {
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-.login button {
-    padding: 0.75rem;
-    border: none;
-    border-radius: 5px;
-    background: #333;
-    color: #fff;
-    cursor: pointer;
-}
-
-.login button:hover {
-    background: #555;
-}
-
 footer {
     background: #333;
     color: #fff;
